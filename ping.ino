@@ -5,8 +5,8 @@ Created by ITead studio. Apr 20, 2010. iteadstudio.com
 Modificated by Xarpe Serpe  
 */
 
-const int trig = A1; // Pin trigger.
-const int echo = A0; // Pin echo.
+const int trig = A0; // Pin trigger.
+const int echo = A1; // Pin echo.
 
 void setup() 
 { 
