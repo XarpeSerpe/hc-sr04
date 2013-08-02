@@ -57,7 +57,7 @@ long microsecondsToCentimeters(long microseconds)
   // The ping travels out and back, so to find the distance of the
   // object we take half of the distance travelled.
   
-  return (microseconds / 29.4117647 / 2.) // without calibration.
+  return (microseconds / 29.4117647 / 2.); // without calibration.
   
   // return (microseconds / 29.4117647 / 2.-1.697959)/1.257335;
   
